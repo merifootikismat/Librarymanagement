@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean
-from database import Base
+from .database import Base
 
 COLUMNS = ["id", "title", "author", "genre", "year", "available"]
 

@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from models import Book
+from .models import Book
 
 
 def get_all(db: Session):
