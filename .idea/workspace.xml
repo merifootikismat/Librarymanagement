@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61c4b95f-d614-4f58-bccf-ec4473fbd3a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/book_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/book_route.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <updated>1764498421280</updated>
       <workItem from="1764498422384" duration="10423000" />
       <workItem from="1764656701890" duration="61000" />
-      <workItem from="1765119894366" duration="2239000" />
+      <workItem from="1765119894366" duration="2629000" />
     </task>
     <servers />
   </component>
