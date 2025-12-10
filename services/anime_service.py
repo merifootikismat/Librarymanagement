@@ -15,7 +15,7 @@ def create_anime(db: Session, data: dict):
         title=data.get("title"),
         genre=data.get("genre"),
         episodes=data.get("episodes"),
-        availabilty=data.get("status"),
+        availabilty=data.get("available?"),
         rating=data.get("rating"),
     )
     db.add(anime)
