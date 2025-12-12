@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from routes.book_route import book_router
+from routes.anime_routes import anime_router
+
 from sql.database import Base, engine  # <-- important
 
 app = FastAPI(

@@ -5,9 +5,9 @@ from sql.database import get_db
 anime_router = APIRouter(prefix="/anime", tags=["anime"])
 
 
-@anime_router.get("/", summary= "List all anime")
+@anime_router.get("/", summary= "list all anime")
 def list_all_anime(db = Depends(get_db)):
-    return list_anime(db)deac
+    return list_anime(db)
 
 
 @anime_router.get("/{anime_id}", summary="Get anime by ID")

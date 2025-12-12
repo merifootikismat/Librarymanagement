@@ -1,5 +1,8 @@
 from sql import crud
 from sqlalchemy.orm import Session
+from sql.models import Anime
+
+
 
 
 def list_anime(db: Session):
@@ -15,7 +18,7 @@ def create_anime(db: Session, data: dict):
         title=data.get("title"),
         genre=data.get("genre"),
         episodes=data.get("episodes"),
-        availabilty=data.get("available?"),
+        availability=data.get("available?"),
         rating=data.get("rating"),
     )
     db.add(anime)
