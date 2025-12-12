@@ -1,5 +1,7 @@
-from sqlalchemy import Column, Integer, String, Boolean
+# sql/models.py
 from .database import Base
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
+from sqlalchemy.orm import relationship
 
 class Book(Base):
     __tablename__ = "books"
@@ -19,3 +21,6 @@ class Anime(Base):
     availability = Column(Boolean, default=True)
     rating = Column(Integer, nullable=True)
 
+    book_id = Column(Integer, ForeignKey("books.id"), nullable=True)
+
+    book = relationship("Book", backref="anime_list") #for easy serialisation

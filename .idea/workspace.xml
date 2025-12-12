@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c4b95f-d614-4f58-bccf-ec4473fbd3a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Librarymanagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Librarymanagement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61c4b95f-d614-4f58-bccf-ec4473fbd3a2" name="Changes" comment="fixed errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/anime_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/anime_routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/anime_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/anime_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +58,13 @@
     "Python.anime_routes.executor": "Run",
     "Python.book_service.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.models.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "Mfk",
-    "last_opened_file_path": "C:/Users/anush/PycharmProjects/libmanagmen",
+    "last_opened_file_path": "C:/Users/anush/PycharmProjects/libmanagmen/services",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +74,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.anime_routes">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anush\PycharmProjects\libmanagmen\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.models">
     <configuration name="anime_routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Librarymanagement" />
       <option name="ENV_FILES" value="" />
@@ -148,6 +152,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Librarymanagement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Librarymanagement" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
       <module name="Librarymanagement" />
@@ -165,6 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.models" />
         <item itemvalue="Python.anime_routes" />
         <item itemvalue="Python.main" />
       </list>
@@ -189,10 +217,23 @@
       <workItem from="1764656701890" duration="61000" />
       <workItem from="1765119894366" duration="10487000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed errors">
+      <option name="closed" value="true" />
+      <created>1765549126105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765549126105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed errors" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Librarymanagement$Librarymanagement.coverage" NAME="Librarymanagement Coverage Results" MODIFIED="1765121878168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

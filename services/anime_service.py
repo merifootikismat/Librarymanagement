@@ -2,9 +2,6 @@ from sql import crud
 from sqlalchemy.orm import Session
 from sql.models import Anime
 
-
-
-
 def list_anime(db: Session):
     return crud.get_all_anime(db)
 
@@ -12,19 +9,17 @@ def list_anime(db: Session):
 def get_anime(db: Session, anime_id: int):
     return crud.get_anime_by_id(db, anime_id)
 
-
 def create_anime(db: Session, data: dict):
-    anime = Anime(
-        title=data.get("title"),
-        genre=data.get("genre"),
-        episodes=data.get("episodes"),
-        availability=data.get("available?"),
-        rating=data.get("rating"),
-    )
-    db.add(anime)
-    db.commit()
-    db.refresh(anime)
-    return anime
+    anime_data = {
+        "title": data.get("title"),
+        "genre": data.get("genre"),
+        "episodes": data.get("episodes"),
+        "availability": data.get("availability"),
+        "rating": data.get("rating"),
+        "book_id": data.get("book_id")
+    }
+    return crud.create_anime(db, anime_data)
+
 
 
 def update_anime(db: Session, anime_id: int, update: dict):
