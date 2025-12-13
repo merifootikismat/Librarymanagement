@@ -20,10 +20,20 @@ def create_anime(db: Session, data: dict):
     }
     return crud.create_anime(db, anime_data)
 
+def delete_anime(db: Session, anime_id: int):
+    return crud.delete_anime(db, anime_id)
 
 
 def update_anime(db: Session, anime_id: int, update: dict):
-    return crud.update_anime(db, anime_id, update)
-
-def delete_anime(db: Session, anime_id: int):
-    return crud.delete_anime(db, anime_id)
+    anime= crud.update_anime(db, anime_id, update)
+    book = None
+    #case 1 (rating<5)
+    if anime.rating<5:
+        book.available = False
+    elif 5 <= anime.rating <= 7:
+        book.available = True
+    elif anime.rating>7:
+        anime.episodes = anime.episodes*2
+    db.commit()
+    db.refresh(anime)
+    return anime
