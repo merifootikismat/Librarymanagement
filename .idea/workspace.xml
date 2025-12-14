@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="61c4b95f-d614-4f58-bccf-ec4473fbd3a2" name="Changes" comment="added foreign key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/anime_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/anime_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/book_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/book_route.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/anime_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/anime_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/book_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/book_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +66,7 @@
     &quot;FastAPI.Librarymanagement.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.anime_routes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.anime_service.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.anime_service.executor&quot;: &quot;Run&quot;,
     &quot;Python.book_service.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.models.executor&quot;: &quot;Run&quot;,
